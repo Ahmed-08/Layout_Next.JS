@@ -1,0 +1,135 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.6em 2.3em;
+    gap: 0.5em;
+
+    position: relative;
+    left: 1.5em;
+    top: 1.5em;
+    width: 1290px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #01457A;
+    box-shadow: 0px 0px 25px rgba(142, 160, 173, 0.35);
+    border-radius: 20px;
+
+
+    .text-first {
+        width: 1209px;
+        height: 66px;
+
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+
+        color: #01457A;
+    }
+
+    .text-second {
+        width: 1225px;
+        height: 99px;
+
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+
+        color: #01457A;
+    }
+
+    .header {
+        margin: 0;
+
+        h2 {
+            width: 1209px;
+            height: 41px;
+            margin-top: 1.1em;
+
+            font-family: 'Noto Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 41px;
+
+            text-align: center;
+
+            color: #01457A;
+        }
+    }
+
+    .image {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 10px;
+        gap: 54px;
+
+        width: 100%;
+        height: 468px;
+        margin-top: 1.7em;
+
+        .image-block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 0px;
+            gap: 15px;
+
+            width: 700px;
+            height: 468px;
+
+            background: rgba(253, 217, 102, 0.25);
+            border-radius: 20px;
+
+            h1 {
+                width: 295px;
+                height: 109px;
+
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 96px;
+                line-height: 131px;
+                text-align: center;
+
+                color: #01457A;
+            }
+
+            .title {
+                width: 343px;
+                height: 70px;
+
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 35px;
+                text-align: center;
+
+                color: #01457A;
+            }
+
+            p {
+                width: 278px;
+                height: 50px;
+
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+
+                color: #01457A;
+            }
+        }
+    }
+
+}

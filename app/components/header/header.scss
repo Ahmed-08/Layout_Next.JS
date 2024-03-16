@@ -1,0 +1,29 @@
+header {
+    position: absolute;
+
+    img,
+    h1 {
+        position: absolute;
+    }
+
+    img {
+        width: 1335px;
+        height: 110px;
+    }
+
+    h1 {
+        width: 700px;
+        height: 49px;
+        top: 18px;
+        left: 45px;
+
+        font-family: 'Century Gothic';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #01457A;
+
+    }
+}

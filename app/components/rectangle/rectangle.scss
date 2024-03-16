@@ -1,0 +1,21 @@
+.rectangle {
+    position: absolute;
+    width: 425px;
+    height: 33px;
+    top: 735px;
+    border-left: 2px solid #01457A;
+    border-right: 2px solid #01457A;
+    border-bottom: 2px solid #01457A;
+
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 30px solid #01457A;
+
+        position: relative;
+        top: 33px;
+
+    }
+}

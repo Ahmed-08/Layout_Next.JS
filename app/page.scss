@@ -1,0 +1,101 @@
+.content {
+    width: 1920px;
+    height: 2510px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 35.7%, #D8EFFF 100%);
+
+    .vectors {
+        width: 100%;
+        position: relative;
+
+        img {
+            position: absolute;
+        }
+
+        .vector45 {
+            width: 1247px;
+            height: 77.12px;
+            z-index: 2;
+        }
+
+        .vector46 {
+            width: 939px;
+            height: 69px;
+            left: 534.5px;
+            z-index: 1;
+        }
+
+        .vector47 {
+            width: 1039px;
+            height: 67px;
+            top: -17px;
+            left: 625.5px;
+        }
+    }
+
+    .main {
+        width: 1380px;
+        height: 2300px;
+        position: absolute;
+        top: 141px;
+        left: 270px;
+        box-shadow: 0px 0px 25px 0px #8EA0AD59;
+        background-color: #FFFFFF;
+
+
+        .lower-item {
+            p {
+                width: 983px;
+                height: 33px;
+                margin-top: 40px;
+                margin-left: 199px;
+
+                font-family: 'Noto Sans';
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 33px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #01457A;
+            }
+        }
+    }
+
+
+    .main section:first-child {
+        height: 615px;
+    }
+
+    section {
+        display: 'block';
+        position: 'relative';
+    }
+
+    .main section:last-child {
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            width: 1290px;
+            height: 83px;
+            background: linear-gradient(90deg, #FDD966 0%, #BCD77E 68.54%);
+            border-radius: 20px;
+            margin-top: 150px;
+            margin-left: 45px;
+            margin-right: 45px;
+
+            h1 {
+                font-family: 'Noto Sans';
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 38px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #01457A;
+            }
+        }
+    }
+}

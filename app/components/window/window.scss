@@ -1,0 +1,67 @@
+.window-block {
+    width: 1290px;
+    padding: 40px 29px 40px 38px;
+    border: 1px solid #01457A;
+    border-radius: 20px;
+    position: relative;
+    left: 45px;
+    right: 45px;
+
+    .drop {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 40px;
+        left: 38px;
+        border-radius: 0 1000px 1000px 1000px;
+        background: linear-gradient(90deg, #FDD966 0%, #BCD77E 68.54%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .image {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        width: 295px;
+        height: 113.5px;
+        left: 147px;
+        top: 40px;
+
+        .text {
+            position: absolute;
+            width: 747px;
+            height: 99px;
+            left: 325px;
+            top: 0px;
+            color: #01457A;
+
+            p {
+                font-family: 'Noto Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 33px;
+            }
+
+            span {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .image-button {
+        position: absolute;
+        top: -24px;
+        right: -24px;
+        cursor: pointer;
+    }
+
+}
